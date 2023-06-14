@@ -132,8 +132,16 @@ function App() {
 
           </div>
 
-          
 
+
+        </div>
+
+
+        <div className="blocktext">
+          <h2> LA MARQUE D'ÉLÉGANCE </h2>
+          <h3>Marchez avec les chaussures de reine, nos signares ! </h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In id consequatur, deleniti repellendus nam, 
+            modi eum fugiat eligendi expedita, quaerat eaque accusamus. Quae minus aut dolores vitae iusto ab ex?</p>
         </div>
       </div>
     </div>
