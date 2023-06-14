@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+/* Donner un taille normal au header pour que logo ait une header normal */
+.App-header {
+  background-color: #ffffff;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  width: 100%;
+  padding: 1rem 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /* color: white; */
+}
+
+.content-header {
+  width: 100%;
+  margin: 0 auto;
+  width: 80%;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  border: 0;
+  margin: 1rem 0;
+}
+
+.contact p {
+  font-size: 1rem;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+  margin: 0 1rem;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style: none;
+  margin: 0 1rem;
+  font-size: 18px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-content .search {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.header-content .search svg {
+  width: 20px;
+  color: #81807e;
+  margin: 0 1rem;
+}
+
+.header-content .search input {
+  height: 50px;
+  width: 250px;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.header-content .search input:focus {
+  outline: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.App-content {
+  width: 100%;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 50px;
+}
+
+.populaires-title {
+  text-align: center;
+}
+
+.populaires-title h2 {
+  color: #7a7a7a;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.populaires-content {
+  width: 100%;
+  display: flex; 
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.populaires-content-item {
+  width: 20%;
+}
+
+.populaires-content-item img {
+  width: 100%;
+}
+
+.populaires-content-item-text {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.populaires-content-item-text h3 {
+  color: #7a7a7a;
+  font-size: .95rem;
+  font-weight: 300;
+}
+
+.populaires-content-item-text p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
